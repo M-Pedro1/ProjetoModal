@@ -1,0 +1,140 @@
+body{
+    background-color: blueviolet;
+}
+
+h1{
+    color: beige;
+}
+
+.div-login{
+    font-family: 'Courier New', Courier, monospace;
+    width: 250px;
+    padding: 8% 0 0;
+    margin: auto;
+    
+}
+
+.modal{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+  
+
+.button-login{
+    font-family: sans-serif;
+    width: 150%;
+    font-size: 12px;
+    background-color: rgb(4, 176, 119);
+    border: 0px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 3px 3px 3px;
+    padding: 15px;
+}
+
+.input-login{
+    margin: 0 0 15px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    border : 0;
+    outline: 0;    
+    border-radius: 2px;
+    width: 150%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.input-login2{
+    margin: 12px 43% 5px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    outline: 0;    
+    border-radius: 2px;
+    width: 20%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.input-login:hover{
+    background-color: rgb(226, 226, 226);
+}
+
+.button-login:hover{
+    background-color: rgb(7, 134, 92);    
+}
+
+.mensagem-login{
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    background-color: rgb(151, 49, 49);
+    color: white;
+    padding-top: 5px;
+    width: 150%;
+    text-align: center;
+    border-radius: 3px;
+}
+
+input[type=checkbox]{
+    position : absolute;        
+    width: 20px;
+    height: 20px;
+    margin-left: 43%;
+}
+
+.p-aceito-termo{  
+    font-family: Arial, Helvetica, sans-serif;  
+    font-size: 13px;
+    padding: 30px;
+    margin-left: 43%;
+    margin-top: 30px;
+    color: white;
+}
+
+.mensagem-ok{
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    background-color: rgb(9, 158, 113);
+    color: white;
+    padding-top: 5px;
+    width: 150%;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.button-cadastrar{
+    padding: 8px;
+    margin-left: 30%;
+    width: 45%;
+    font-size: 10px;
+    background-color: rgb(206, 93, 52);
+    border: 0;
+    border-radius: 3px;
+    margin-top: 3px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.button-login-voltar{
+    padding: 10px;
+    margin-left: 30%;
+    width: 45%;
+    font-size: 10px;
+    background-color: rgb(4, 176, 119);
+    border: 0;
+    border-radius: 3px;
+    margin-top: 3px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.button-login-voltar:hover{
+    background-color: rgb(226, 226, 226);
+}
+
+.button-login-voltar:hover{
+    background-color: rgb(7, 134, 92);    
+}
+
+.button-cadastrar:hover{
+    background-color: rgb(150, 59, 26);
+}

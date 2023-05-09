@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Login</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <script src='js/main.js'></script>
+</head>
+<body onload="">    
+    <div id="login" class="div-login">
+            <input class="input-login" id="email" type="text" onfocus="limparMensagem()" placeholder="E-mail/Telefone">
+            <br>
+            <input class="input-login" id="senha" type="password" onfocus="limparMensagem()" placeholder="Senha">
+            <br>
+            <button type="submit" class="button-login" onclick="validaLogin()">Login</button>
+            <button type="submit" class="button-cadastrar" id="btnmodal" onclick="abreModal()">Cadastrar</button>           
+        <div class="div-message">
+            <p id="message" class=""></p>
+        </div>
+    </div>      
+
+    <div id="cadastrar" class="modal">        
+        <input class="input-login2" id="nome" type="text" placeholder="Nome Completo">
+        <br>
+        <input class="input-login2" id="email" type="text" placeholder="E-mail">
+        <br>
+        <input class="input-login2" id="telefone" type="text" placeholder="Telefone">
+        <br>
+        <input class="input-login2" id="cidade" type="text" placeholder="Cidade">
+        <br>
+        <select class="input-login2" id="estados">
+            <option value="" selected>Selecione o Estado</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="SP">São Paulo</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="ES">Espirito Santo</option>
+            <option value="BA">Bahia</option>
+        </select>
+        <br>
+        <input class="input-login2" id="datanascimento" type="date" placeholder="Nascimento">
+        <br>
+        <input class="input-login2" id="senha" type="password" placeholder="Senha">        
+        <br>
+        <input id="aceitotermo" type="checkbox" value="aceito"><h8 class="p-aceito-termo">Aceita termos site?</h8>
+
+        <button type="submit" class="button-cadastrar input-login2" id="btnmodal2" onclick="abreModal()">Registrar</button>
+        <button type="submit" class="button-login-voltar input-login2" onclick="voltarLogin()">Login</button>
+        <div class="div-message">
+            <p id="message" class=""></p>
+        </div>
+    </div>
+</body>
+</html>
